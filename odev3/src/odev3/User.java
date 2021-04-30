@@ -1,8 +1,12 @@
 package odev3;
 
+
 public class User {
 
-
+	private	int Id;
+	private	String FirstName;
+	private	String LastName;
+	
 	public User()
 	{
 		super();
@@ -15,9 +19,7 @@ public class User {
 		LastName = lastName;
 	}
 
-private	int Id;
-private	String FirstName;
-private	String LastName;
+
 
 
 public int getId() {
