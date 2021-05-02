@@ -21,11 +21,12 @@ public class Main {
 		UserManager userManager=new UserManager();
 		userManager.Add(user);
 		
-		InstructorManager instructorManager=new InstructorManager();
+		InstructorManager instructorManager=new InstructorManager();		
 		instructorManager.Add(instructor);
 		
 		StudentManager studentManager=new StudentManager();
 		studentManager.Add(student);
+
 		
 		
 	}

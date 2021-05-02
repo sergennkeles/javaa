@@ -9,11 +9,11 @@ public class User {
 	
 	public User()
 	{
-		super();
+	
 	}
 	
 	public User(int id, String firstName, String lastName) {
-		super();
+	
 		Id = id;
 		FirstName = firstName;
 		LastName = lastName;
