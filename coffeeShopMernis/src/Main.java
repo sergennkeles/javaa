@@ -22,6 +22,7 @@ public class Main {
 
 		BaseCustomerManager baseCustomerManager = new StarbucksCustomerManager(new MernisAdapterService());
 		baseCustomerManager.save(customer);
+		BaseCustomerManager baseCustomerManager1 = new NeroCustomerManager();
 
 	}
 }
