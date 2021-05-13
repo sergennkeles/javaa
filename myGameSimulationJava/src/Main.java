@@ -16,7 +16,7 @@ import Entities.Concrete.Gamer;
 public class Main {
 
 	public static void main(String[] args) {
-		Gamer gamer = new Gamer(1, "52207624626", "Sergen", "Keleþ", new Date(1992, 9, 02));
+		Gamer gamer = new Gamer(1, "12345678999", "Sergen", "Keleþ", new Date(1992, 9, 02));
 		Game game1 = new Game("Pro Evolution Soccer");
 		Game game2 = new Game("Grand Theft Auto 5");
 		Campaign campaign1 = new Campaign("Vip");
